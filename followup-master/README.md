@@ -1,14 +1,14 @@
-# Example prediction code for MATLAB for the PhysioNet/CinC Challenge 2019
+# Followup MATLAB code for the PhysioNet/CinC Challenge 2019 (CCM work)
 
 ## Contents
 
 This prediction code uses three scripts:
 
-* `get_sepsis_score.m` makes predictions on clinical time-series data.  Add your prediction code to the `get_sepsis_score` function.
-* `load_sepsis_model.m` loads model weights, etc. for making predictions.  To reduce your code's run time, add any code to the `load_sepsis_model` function that you only need to run once, such as loading weights for your model.
-* `driver.m` calls `load_sepsis_model` once and `get_sepsis_score` many times. It also performs all file input and output.  **Do not** edit this script -- or we will be unable to evaluate your submission.
+* `get_sepsis_score.m` makes predictions on clinical time-series data. 
+* `load_sepsis_model.m` loads model weights, etc. for making predictions.  
+* `driver.m` calls `load_sepsis_model` once and `get_sepsis_score` many times. It also performs all file input and output.
 
-Check the code in these files for the input and output formats for the `load_sepsis_model` and `get_sepsis_score` functions.
+.
 
 ## Running
 
